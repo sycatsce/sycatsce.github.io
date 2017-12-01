@@ -2,7 +2,7 @@
 
 # My CV
 
-This project is a web version of my CV. It uses HTML and CSS (with SASS) without any framework.
+This project is a web version of my CV. It uses HTML and CSS (with SASS) without any framework. I tried to use what I learned this week at school to create this web page such as media queries, positioning, sass, and giving relevant class/id name.
 
 
 ### Installation
