@@ -11,13 +11,14 @@ body{
 }
 
 p{
-    font-family: "Geo";
+    font-family: sans-serif;
 }
 #entete{
     background-color: $couleurSecondaire;
-    padding: 50px 50px 100px 50px;
-    border-radius: 0px;
-    height:100px;}
+    padding: 15px;
+    border-radius: 10px;
+    height: auto;
+    overflow: hidden;}
 
 #entete-nom{
     float:right;
@@ -31,4 +32,50 @@ p{
 #entete-infos{
     float:left;
     margin-bottom: 10px;
+}
+
+.rubrique{
+    background-color: $couleurSecondaire;
+    margin-top: 20px;
+    padding:15px;
+    border-radius: 10px;
+}
+
+.titres{
+    text-align:center;
+}
+
+#competences-box{
+    display:flex;
+    align-content: center;
+}
+
+#competences-gauche{
+    margin-left: 2%;
+    margin-right: 2%;
+    width:45%;
+}
+
+#competences-droite{
+    margin-left: 2%;
+    margin-right: 2%;
+    width:45%;
+}
+
+.competences-titre{
+    padding: 10px;
+    border-top: 1px solid;
+    text-align: center;
+}
+
+.competences-contenu{
+    text-align: left;
+}
+
+
+.formation{
+    border-left: 3px solid $couleurTerciaire;
+    padding : 5px;
+    margin-left:10px;
+    margin-bottom:10px;
 }
