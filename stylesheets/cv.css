@@ -5,7 +5,8 @@ body {
   background-color: white; }
 
 p {
-  font-family: sans-serif; }
+  font-family: "Geo";
+  font-size: large; }
 
 #entete {
   background-color: #f5f5f5;
@@ -16,7 +17,7 @@ p {
 
 #entete-nom {
   float: right;
-  font-family: sans-serif;
+  font-family: "Geo";
   color: #8ac4ff;
   margin-top: 15px;
   text-align: center;
@@ -24,7 +25,8 @@ p {
 
 #entete-infos {
   float: left;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  margin-left: 2%; }
 
 .rubrique {
   background-color: #f5f5f5;
@@ -33,7 +35,10 @@ p {
   border-radius: 10px; }
 
 .titres {
-  text-align: center; }
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Geo";
+  color: #8ac4ff; }
 
 #competences-box {
   display: flex;
@@ -50,6 +55,7 @@ p {
   width: 45%; }
 
 .competences-titre {
+  font-size: x-large;
   padding: 10px;
   border-top: 1px solid;
   text-align: center; }
@@ -62,5 +68,22 @@ p {
   padding: 5px;
   margin-left: 10px;
   margin-bottom: 10px; }
+
+.experience {
+  margin-left: 10px;
+  margin-bottom: 10px; }
+
+@media print {
+  .pagebreak {
+    page-break-before: always; } }
+@media screen and (max-width: 500px) {
+  #competences-box {
+    display: block; }
+
+  #competences-droite {
+    width: 100%; }
+
+  #competences-gauche {
+    width: 100%; } }
 
 /*# sourceMappingURL=cv.css.map */
